@@ -83,7 +83,7 @@ The schema, keys, grain and table relationships are in [`schema.md`](schema.md).
 
 ## Missing Data
 
-| Kind of gap | How many patients | What was done |
+| Type of missing data | How many patients | What was done |
 |---|---|---|
 | missing `sex` | 52 | kept as `NA` |
 | missing `age_at_diagnosis` | 71 | kept as `NA` |
