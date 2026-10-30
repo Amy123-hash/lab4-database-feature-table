@@ -1,0 +1,38 @@
+
+DATABASE CHECKS
+Patient count: expected 566, got 566 [OK]
+Sample count: expected 566, got 566 [OK]
+Patients represented in samples: expected 566, got 566 [OK]
+
+QUERY 1: GENE MUTATION COUNTS
+Patient-gene combinations: expected 2,830, got 2,830 [OK]
+Incorrect WHERE query returned 700 rows instead of 2,830.
+Wide gene table: expected 566, got 566 [OK]
+
+QUERY 2: SITE AND STAGE COUNTS
+Site-stage groups: expected 142, got 142 [OK]
+Patients counted: expected 566, got 566 [OK]
+
+QUERY 3: PATIENT METADATA
+Patient metadata rows: expected 566, got 566 [OK]
+Independent pandas mutation recount: all counts match.
+
+BUILDING FINAL FEATURE TABLE
+Final joined patient count: expected 566, got 566 [OK]
+
+MISSING DATA REPORT
+sex: 52 missing
+age_at_diagnosis: 71 missing
+stage: 54 missing
+tissue_source_site: 0 missing
+tmb_nonsynonymous: 0 missing
+Patients with no mutation calls: 4
+TP53_protein_altering_count: 275 zeros; 4 missing
+KRAS_protein_altering_count: 394 zeros; 4 missing
+EGFR_protein_altering_count: 493 zeros; 4 missing
+STK11_protein_altering_count: 488 zeros; 4 missing
+KEAP1_protein_altering_count: 460 zeros; 4 missing
+Final TSV rows: expected 566, got 566 [OK]
+FINAL TABLE: 566 rows x 11 columns
+
+ALL VALIDATION CHECKS PASSED.
