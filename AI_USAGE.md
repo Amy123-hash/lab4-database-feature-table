@@ -37,4 +37,4 @@ I also used AI to understand why the incorrect `WHERE` version of the gene-count
 
 There were 4 patients with no mutation records in the database. I used `NA` instead of `0` for their five gene mutation counts because having no mutation records does not necessarily mean that the tumors had zero mutations. Their tumor mutation burden is listed as 0.0, but that does not confirm that they had no mutations. Using zero could be another approach, but I chose `NA` to represent unavailable information.
 
-AI was used as a support tool and aid throughout the project, but I reviewed the code, ran the queries and checks, and compared the results with the original database. I am ensured I understood the code and results before submiting.
+AI was used as a support tool and aid throughout the project, I reviewed the code and results to make sure I understood what was done and how the final feature table was created.
