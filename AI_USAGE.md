@@ -2,7 +2,7 @@
 
 ## Tools
 
-- **Claude Sonnet 5.5 (Anthropic):** Used through claude.ai to help with the project and review wording and documentation.
+- **Claude Sonnet 5.5 :** Used through claude.ai to help with the project and review wording and documentation.
 - **ChatGPT (GPT-6):** Used to help understand the database structure, write and organize the SQL queries and Python script, troubleshoot errors, and verify the feature table.
 
 ## What the AI helped with
